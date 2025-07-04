@@ -82,7 +82,7 @@ h2{
   top: -30px;
   left: -109px;
 }
-footer {
+.index-footer {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -93,3 +93,11 @@ footer {
   font-size: 14px;
   background: bisque;
 }
+.recipe-footer {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  color: #555;
+  font-size: 0.9rem;
+}
+
