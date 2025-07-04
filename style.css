@@ -42,6 +42,7 @@ a:hover {
   position: relative;
   margin: 0 auto;
   margin-bottom: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.247);
 }
 
 .biryani{
@@ -53,12 +54,11 @@ a:hover {
 }
 h2{
   width: 140px;
-  padding: 10px 20px;
+  padding: 10px 10px;
   font-size: 20px;
   border-radius: 50px;
   color: bisque;
   background-color: brown;
-  text-decoration: none;
   text-align: center;
   margin: 0 auto;
 }
@@ -73,6 +73,7 @@ h2{
     height: 300px;
     width: 300px;
     border-radius: 60px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.247);
 }
 .gol-gappay{
   position: absolute;
@@ -80,4 +81,15 @@ h2{
   height: 350px;
   top: -30px;
   left: -109px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 16px;
+  color: #555;
+  font-size: 14px;
+  background: bisque;
 }
