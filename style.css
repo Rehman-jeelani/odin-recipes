@@ -2,8 +2,10 @@ body{
     background-color: bisque;
     color: brown;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
+
 }
 .main{
+    display: block;
     text-align: center;
 }
 h1{
