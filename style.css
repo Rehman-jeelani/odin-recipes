@@ -43,7 +43,7 @@ a:hover {
   margin-bottom: 30px;
 }
 
-.food-image{
+.biryani{
   position: absolute;
   width: auto;
   height: 520px;
@@ -63,4 +63,22 @@ h2{
 }
 .recipe {
     list-style: none;
+}
+.margarita{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.gol-gappay{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
 }
