@@ -1,7 +1,6 @@
 body{
     background-color: bisque;
     color: brown;
-    
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 .main{
@@ -35,11 +34,11 @@ a:hover {
 }
 .image-wrapper {
   width: 300px;
-  margin: 0 auto;
   height: 300px;
   border-radius: 50%;
   overflow: hidden;
   position: relative;
+  margin: 0 auto;
   margin-bottom: 30px;
 }
 
@@ -74,11 +73,9 @@ h2{
     border-radius: 50%;
 }
 .gol-gappay{
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    object-fit: cover;
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
+  position: absolute;
+  width: auto;
+  height: 390px;
+  top: -49px;
+  left: -140px;
 }
