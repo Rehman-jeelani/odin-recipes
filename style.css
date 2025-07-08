@@ -1,7 +1,7 @@
 body{
     background-color: bisque;
     color: brown;
-    font-family: "Trebuchet MS", Helvetica, Roboto, sans-serif;
+    font-family: Poppins,"Trebuchet MS", Helvetica, sans-serif;
 
 }
 .main{
@@ -11,9 +11,7 @@ body{
 h1{
     font-size: 36px;
     margin-bottom: 30px;
-}
-ul {
-  padding-left: 0;
+    font-weight: 700;
 }
 
 .titles {
@@ -21,11 +19,15 @@ ul {
     list-style: none;
     margin: 10px;
 }
+.home{
+  padding: 10px 0px;
+  font-size: 18px;
+}
 a {
     display: inline-block;
     width: 140px;
-    padding: 10px 20px;
-    font-size: 20px;
+    padding: 10px 15px;
+    font-size: 18px;
     border-radius: 50px;
     color: bisque;
     background-color: brown;
@@ -64,6 +66,7 @@ h2{
   background-color: brown;
   text-align: center;
   margin: 0 auto;
+  font-weight: 500;
 }
 .recipe {
     list-style: none;
@@ -103,4 +106,7 @@ h2{
   color: #555;
   font-size: 0.9rem;
 }
-
+p{
+  line-height: 1.6;
+  text-align: center;
+}
