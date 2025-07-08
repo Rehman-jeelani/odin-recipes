@@ -39,6 +39,9 @@ a:hover {
     background-color: transparent;
     color: brown;
 }
+.index-ul{
+  padding: 0;
+}
 .image-wrapper {
   width: 300px;
   height: 300px;
@@ -109,4 +112,9 @@ h2{
 p{
   line-height: 1.6;
   text-align: center;
+}
+@media (max-width: 480px){
+ul, ol{
+  padding: 0 0 0 20px;
+}
 }
